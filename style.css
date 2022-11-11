@@ -3,12 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-  background-image: url('https://images.vexels.com/media/users/3/100742/raw/97fb785ccbfac8dca78d94f8b911ba45-fondo-azul-abstracto-grafico-vectorial-4.png');
-}
+  
+
 .form-Registro {
-    width: 400px;
-    background: #24303c;
+    width: 380px;
+    background: #dbe0e6;
     padding: 30px;
     margin: auto;
     margin-top: 100px;
@@ -20,22 +19,24 @@ body{
 .form-Registro h2{
     font-size: 28px;
     margin-bottom: 20px;
+  color: black;
 
 }
 .form-Registro h1{
     font-size: 18px;
+  color: black;
 
 }
 .controls{
     width: 100%;
-    background: #24303c;
+    background: #ffffff;
     padding: 10px;
     border-radius: 4px;
     margin-bottom: 16px;
-    border: 1px solid #1f53c5;
+    border: 1px solid #ffffff;
     font-family: 'calibri';
     font-size: 18px;
-    color: white;
+    color: #030202;
 
 }
 .form-Registro p{
@@ -46,22 +47,23 @@ body{
 
 }
 .form-Registro a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 .form-Registro a:hover {
-    color: white;
+    color: #0f1cd2;
     text-decoration: underline;
 }
-.form-Registro .boton{
+.boton{
     width: 100%;
-    background: #1f53c5;
+    background: #0747cf;
     border: none;
     padding: 12px;
     color: white;
     margin: 16px 0;
     font-size: 16px;
     border-radius: 6px;
+  
 
 
 }
@@ -69,7 +71,72 @@ body{
     height: 20px;
     font-size: 18px;
     line-height: 40px;
-    
+    color: black;
     
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
 
+.form-Nomina {
+    width: 380px;
+    background: #dbe0e6;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 12px;
+    font-family: 'calibri';
+    color:white;
+    box-shadow: 7px 13px 37px #000;
+}
+.form-Nomina h2{
+    font-size: 28px;
+    margin-bottom: 20px;
+  color: black;
+
+}
+.form-Nomina h1{
+    font-size: 18px;
+  color: black;
+
+}
+.campos{
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ffffff;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: #030202;
+
+}
+.form-Nomina p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+
+}
+.form-Nomina a {
+    color: black;
+    text-decoration: none;
+}
+.form-Nomina a:hover {
+    color: #0f1cd2;
+    text-decoration: underline;
+}
+.button{
+    width: 100%;
+    background: #0747cf;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 6px;
+  
