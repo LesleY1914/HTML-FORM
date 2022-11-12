@@ -1,7 +1,16 @@
+:root{
+    --colorText:black;
+}
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'calibri';
 }
   
 
@@ -13,7 +22,7 @@
     margin-top: 100px;
     border-radius: 12px;
     font-family: 'calibri';
-    color:white;
+    color:rgb(0, 0, 0);
     box-shadow: 7px 13px 37px #000;
 }
 .form-Registro h2{
@@ -25,7 +34,7 @@
 .form-Registro label{
     font-size: 18px;
     color: black;
-    font-family: 'calibri';
+    
 
 }
 .controls{
@@ -142,4 +151,57 @@
     border-radius: 6px;
   
 }
+
+.links{
+    width: 10%;
+    background: #0747cf;
+    padding: 20px;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 0px;
+    font-family: 'calibri';
+    color:white ;
+    font-size: 22px;
+    text-align: center;
+
+    
+}
+.links1{
+    width: 20%;
+    background: #0747cf;
+    padding: 20px;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 0px;
+    font-family: 'calibri';
+    color:white ;
+    font-size: 22px;
+    text-align: center;
+
+    
+}
+.links1{
+    width: 20%;
+    background: #0747cf;
+    padding: 20px;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 0px;
+    
+}
+.cuadro :hover {
+    background-color: #ec9d0b;
+    text-decoration: underline;
+
+}
+    
+
+    
+
+
+
+
+
+
+
 

@@ -13,29 +13,25 @@
   <body>
     </head>
   <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Registro</a></li>
-                <li><a href="nomina.html">Nomina</a></li>
-                
-            </ul>
-        </nav>
+    <header class="cuadro">
+      <div class="links">
+        <a href="./index.html" style="color: white;text-decoration: none;">Registrarse </a>
+      </div>
     </header>
     <form>
    <section class="form-Nomina">
     <h2>Consultar nomina </h2>
     <label for="Nombres">Nombres</label><br>
-    <input class= "campos" type="text"name="Nombres" id="Nombres" required pattern="[A-Za-z]{2,40}" placeholder="Ingrese su nombre completo">
+    <input class= "campos" type="text"name="Nombres" id="Nombres" required autofocus pattern="[A-Za-z]{2,40}" placeholder="Ingrese su nombre completo">
 
     <label for="Apellidos">Apellidos</label><br>
-    <input class= "campos" type="text"name="Apellidos" id="Apellidos" required pattern="[A-Za-z]{2,40}" placeholder="Ingrese sus apellidos">
+    <input class= "campos" type="text"name="Apellidos" id="Apellidos" required pattern="[A-Za-z]{2,40}"  placeholder="Ingrese sus apellidos">
 
     <label for="Correo">Salario</label><br>
-    <input class= "campos" type="int"name="salario" id="salario" required pattern="[A-Za-z]{2,40}"placeholder="Ingrese su salario ">
+    <input class= "campos" type="int"name="salario" id="salario" required pattern="{2,40}" placeholder="Ingrese su salario ">
 
     <label for="Contraseña">DiasTrabajados</label><br>
-    <input class= "campos" type="int"name="Dias Trabajados" id="dt" required pattern="[A-Za-z]{2,40}" placeholder="Ingrese los dias trabajados">
+    <input class= "campos" type="int"name="Dias Trabajados" id="dt" required pattern="{2,40}" placeholder="Ingrese los dias trabajados">
   
      
 

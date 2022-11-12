@@ -12,29 +12,26 @@
     
   </head>
   <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Registro</a></li>
-                <li><a href="nomina.html">Nomina</a></li>
-                
-            </ul>
-        </nav>
+    <header class="cuadro">
+      <div class="links1">
+        <a href="./nomina.html"style="color: white; text-decoration: none;" >Consultar Nomina </a>
+      </div> 
+              
     </header>
   <form>
    <section class="form-Registro">
     <h2>Crear cuenta </h2>
     <label for="Nombres">Nombres</label><br>
-    <input class= "controls" type="text"name="Nombres" id="Nombres"  required pattern="[A-Za-z]{2,40}"placeholder="Ingrese su nombre completo">
+    <input class= "controls"  type="text"name="Nombres" id="Nombres"  required autofocus pattern="[A-Za-z]{2,40}" placeholder="Ingrese su nombre completo">
 
     <label for="Apellidos">Apellidos</label><br>
     <input class= "controls" type="text"name="Apellidos" id="Apellidos" required pattern="[A-Za-z]{2,40}" placeholder="Ingrese sus apellidos">
 
     <label for="Correo electronico">Correo electrónico</label><br>
-    <input class= "controls" type="email"name="Correo" id="E-mail" required pattern="[A-Za-z]{2,40}" placeholder="Ingrese su nombre correo electrónico">
+    <input class= "controls" type="email"name="Correo" id="E-mail" required  placeholder="Ingrese su nombre correo electrónico">
 
     <label for="Contraseña">Contraseña</label><br>
-    <input class= "controls" type="password"name="Contraseña" id="Contraseña" required pattern="[A-Za-z]{2,40}" placeholder="Ingrese una contraseña">
+    <input class= "controls" type="password"name="Contraseña" id="Contraseña" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" placeholder="Ingrese una contraseña">
 
     <div class="form-check">
         <input class="form-check" type="checkbox">
