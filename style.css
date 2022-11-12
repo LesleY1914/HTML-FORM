@@ -167,7 +167,32 @@
     text-align: center;
 
     
+}links{
+    width: 20%;
+    background: #0747cf;
+    padding: 20px;
+    margin: auto;
+  
 }
+.links :hover{
+   background-color: #bd3232;
+    text-decoration: underline;
+  
+}
+
+   
+.lol{
+  background-color:#0747cf ;
+
+  
+}
+
+.lol :hover{
+   background-color: #ff7b00;
+    text-decoration: underline;
+  
+} 
+
 .links1{
     width: 20%;
     background: #0747cf;
@@ -198,6 +223,7 @@
    
 .lol{
   background-color:#0747cf ;
+  padding: 30px;
 
   
 }
