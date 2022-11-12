@@ -22,9 +22,10 @@
   color: black;
 
 }
-.form-Registro h1{
+.form-Registro label{
     font-size: 18px;
-  color: black;
+    color: black;
+    font-family: 'calibri';
 
 }
 .controls{
@@ -98,7 +99,7 @@
   color: black;
 
 }
-.form-Nomina h1{
+.form-Nomina label{
     font-size: 18px;
   color: black;
 
@@ -140,3 +141,5 @@
     font-size: 16px;
     border-radius: 6px;
   
+}
+

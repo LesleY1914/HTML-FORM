@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en">
+<html lang="Es">
   <head>
     
     <meta charset="utf-8">
@@ -24,14 +24,18 @@
   <form>
    <section class="form-Registro">
     <h2>Crear cuenta </h2>
-    <h1>Nombres</h1>
-    <input class= "controls" type="text"name="Nombres" id="Nombres" placeholder="Ingrese su nombre completo">
-    <h1>Apellidos</h1>
-    <input class= "controls" type="text"name="Apellidos" id="Apellidos" placeholder="Ingrese sus apellidos">
-    <h1>Correo electrónico</h1>
-    <input class= "controls" type="email"name="Correo" id="E-mail" placeholder="Ingrese su nombre correo electrónico">
-    <h1>Contraseña</h1>
-    <input class= "controls" type="password"name="Contraseña" id="Contraseña" placeholder="Ingrese una contraseña">
+    <label for="Nombres">Nombres</label><br>
+    <input class= "controls" type="text"name="Nombres" id="Nombres"  required pattern="[A-Za-z]{2,40}"placeholder="Ingrese su nombre completo">
+
+    <label for="Apellidos">Apellidos</label><br>
+    <input class= "controls" type="text"name="Apellidos" id="Apellidos" required pattern="[A-Za-z]{2,40}" placeholder="Ingrese sus apellidos">
+
+    <label for="Correo electronico">Correo electrónico</label><br>
+    <input class= "controls" type="email"name="Correo" id="E-mail" required pattern="[A-Za-z]{2,40}" placeholder="Ingrese su nombre correo electrónico">
+
+    <label for="Contraseña">Contraseña</label><br>
+    <input class= "controls" type="password"name="Contraseña" id="Contraseña" required pattern="[A-Za-z]{2,40}" placeholder="Ingrese una contraseña">
+
     <div class="form-check">
         <input class="form-check" type="checkbox">
         <label class="form-check-label text-muted">Aceptar terminos y condiciones</label>

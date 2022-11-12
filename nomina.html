@@ -1,6 +1,6 @@
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     
     <meta charset="utf-8">
@@ -25,14 +25,17 @@
     <form>
    <section class="form-Nomina">
     <h2>Consultar nomina </h2>
-    <h1>Nombres</h1>
-    <input class= "campos" type="text"name="Nombres" id="Nombres" placeholder="Ingrese su nombre completo">
-    <h1>Apellidos</h1>
-    <input class= "campos" type="text"name="Apellidos" id="Apellidos" placeholder="Ingrese sus apellidos">
-    <h1>Salario</h1>
-    <input class= "campos" type="int"name="Correo" id="E-mail" placeholder="Ingrese su salario ">
-    <h1>Dias trabajados</h1>
-    <input class= "campos" type="int"name="DiasTrabajados" id="Contraseña" placeholder="Ingrese los dias trabajados">
+    <label for="Nombres">Nombres</label><br>
+    <input class= "campos" type="text"name="Nombres" id="Nombres" required pattern="[A-Za-z]{2,40}" placeholder="Ingrese su nombre completo">
+
+    <label for="Apellidos">Apellidos</label><br>
+    <input class= "campos" type="text"name="Apellidos" id="Apellidos" required pattern="[A-Za-z]{2,40}" placeholder="Ingrese sus apellidos">
+
+    <label for="Correo">Salario</label><br>
+    <input class= "campos" type="int"name="salario" id="salario" required pattern="[A-Za-z]{2,40}"placeholder="Ingrese su salario ">
+
+    <label for="Contraseña">DiasTrabajados</label><br>
+    <input class= "campos" type="int"name="Dias Trabajados" id="dt" required pattern="[A-Za-z]{2,40}" placeholder="Ingrese los dias trabajados">
   
      
 
