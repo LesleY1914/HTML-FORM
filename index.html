@@ -10,27 +10,28 @@
     <title>Registrate</title>
     <link rel="icon" href="logo.ico">
     
-  </head>
+ </head>
   <body>
-    <header class="cuadro">
-      <div class="links1">
+    <header >
+    <fieldset class="lol">   
+  <div class="links1">
         <a href="./nomina.html"style="color: white; text-decoration: none;" >Consultar Nomina </a>
-      </div> 
+      </div> </fieldset>
               
     </header>
   <form>
    <section class="form-Registro">
     <h2>Crear cuenta </h2>
-    <label for="Nombres">Nombres</label><br>
+    <label for="Nombres">nombres</label><br>
     <input class= "controls"  type="text"name="Nombres" id="Nombres"  required autofocus pattern="[A-Za-z]{2,40}" placeholder="Ingrese su nombre completo">
 
-    <label for="Apellidos">Apellidos</label><br>
+    <label for="Apellidos">apellidos</label><br>
     <input class= "controls" type="text"name="Apellidos" id="Apellidos" required pattern="[A-Za-z]{2,40}" placeholder="Ingrese sus apellidos">
 
-    <label for="Correo electronico">Correo electrónico</label><br>
-    <input class= "controls" type="email"name="Correo" id="E-mail" required  placeholder="Ingrese su nombre correo electrónico">
+    <label for="Correo electronico">correo electrónico</label><br>
+    <input class= "controls" type="email"name="Correo" id="E-mail" required  pattern="{15,50}" placeholder="Ingrese su nombre correo electrónico">
 
-    <label for="Contraseña">Contraseña</label><br>
+    <label for="Contraseña">contraseña</label><br>
     <input class= "controls" type="password"name="Contraseña" id="Contraseña" required pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$" placeholder="Ingrese una contraseña">
 
     <div class="form-check">
@@ -39,7 +40,7 @@
     </div>
      
 
-      <input class="boton" type="submit" value="Registrarse">
+      <input class="boton" type="submit" required value="Registrarse">
      
 
     <p><a href="#">¿Ya tienes cuenta?</a></p>

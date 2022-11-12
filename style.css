@@ -28,7 +28,8 @@
 .form-Registro h2{
     font-size: 28px;
     margin-bottom: 20px;
-  color: black;
+    color: black;
+    text-align: center;
 
 }
 .form-Registro label{
@@ -105,7 +106,8 @@
 .form-Nomina h2{
     font-size: 28px;
     margin-bottom: 20px;
-  color: black;
+    color: black;
+    text-align: center;
 
 }
 .form-Nomina label{
@@ -169,7 +171,7 @@
 .links1{
     width: 20%;
     background: #0747cf;
-    padding: 20px;
+    padding: 15px;
     margin: auto;
     margin-top: 0px;
     border-radius: 0px;
@@ -185,18 +187,28 @@
     background: #0747cf;
     padding: 20px;
     margin: auto;
-    margin-top: 0px;
-    border-radius: 0px;
-    
+  
 }
-.cuadro :hover {
-    background-color: #ec9d0b;
+.links1 :hover{
+   background-color: #bd3232;
     text-decoration: underline;
-
+  
 }
-    
 
-    
+   
+.lol{
+  background-color:#0747cf ;
+
+  
+}
+
+.lol :hover{
+   background-color: #ff7b00;
+    text-decoration: underline;
+  
+} 
+
+
 
 
 
